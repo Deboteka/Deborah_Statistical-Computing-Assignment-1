@@ -1,0 +1,37 @@
+---
+title: "Assignment1_Deborah"
+author: "Deborah"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction 
+
+```{r}
+plot(cars)
+```
+This is a scatter plot of distance vs speed 
+
+```{r echo=FALSE}
+adm <-read.csv("admission.csv")
+head(adm)
+plot(adm)
+```
+
+
+
+
+```{r echo=FALSE}
+coladata <-read.table("cola.txt", header = T)
+head(coladata)
+plot(coladata)
+```
+
+
+
+
+
