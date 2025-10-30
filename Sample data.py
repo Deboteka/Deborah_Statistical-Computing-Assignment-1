@@ -6,7 +6,7 @@ print("This is assignment one ")
 
 # Define two numbers
 num1 = 10
-num2 = 5
+num2 = 7
 
 # Addition
 sum_result = num1 + num2
